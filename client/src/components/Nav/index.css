@@ -1,0 +1,24 @@
+header {
+    background-color: var(--blue);
+}
+
+a.title {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.nav-elements {
+    list-style-type: none;
+}
+
+.dropdown { display: none !important;}
+
+@media screen and (max-width: 992px) {
+    
+    .nav-elements     { display: none !important; }
+    .dropdown { display: inline-block !important; }
+}
+
+@media screen and (min-width: 567px) {
+    header { padding-top: 2%}
+}
