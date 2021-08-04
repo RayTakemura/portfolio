@@ -35,6 +35,8 @@ main {
   align-items: center; 
   justify-content: center; 
   text-align: center; 
+  min-height: 45rem;
+  
   /* display: flex;
   align-items: center; */
 }
