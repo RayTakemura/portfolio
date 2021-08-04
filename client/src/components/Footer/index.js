@@ -1,6 +1,6 @@
 import './index.css'
-import github from '../../assets/images/icons/github.svg';
-import linkedin from '../../assets/images/icons/linkedin.svg';
+import github from '../../assets/icons/github.svg';
+import linkedin from '../../assets/icons/linkedin.svg';
 
 const Footer = () => {
     return (

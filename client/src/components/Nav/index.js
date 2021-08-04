@@ -29,7 +29,7 @@ const Nav = () => {
                             
                             <ul className="p-3 nav-elements d-flex flex-row justify-content-around">
                                 <li className="py-3" id="nav-el">
-                                    About me
+                                    <Link to='/' className="nav-el">About me</Link>
                                 </li>
                                 <li className="py-3" id="nav-el">
                                     Work
@@ -56,7 +56,6 @@ const Nav = () => {
                             </div>
                         </nav>
                     </Col>
-                    
                 </Row>
                     
                 

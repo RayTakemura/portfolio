@@ -12,6 +12,11 @@ a.title {
     list-style-type: none;
 }
 
+a.nav-el {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .dropdown { display: none !important;}
 
 @media screen and (max-width: 992px) {

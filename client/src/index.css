@@ -26,8 +26,8 @@ main {
 }
 
 .pfp {
-  max-width: 275px;
-  min-width: 200px;
+  max-width: 80%;
+  min-width: 100px;
 }
 
 .xy-align {
@@ -41,3 +41,20 @@ main {
   align-items: center; */
 }
 
+@media screen and (max-width: 992px){
+  .pfp{
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .prof-doc{
+    font-size: medium;
+  }
+  .pfp{
+    padding-bottom: 0px;
+  }
+  .abt-me{
+    padding: 0px !important;
+  }
+}
