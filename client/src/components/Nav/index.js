@@ -46,8 +46,8 @@ const Nav = () => {
                                         dropdown ? 
                                         <div className="dropdown-content d-flex flex-column">
                                             <Link to="/">About me</Link>
-                                            <span>hi</span>
-                                            <span>hi2</span>
+                                            <span>Work</span>
+                                            <span>Resume</span>
                                         </div>
                                         :
                                         null

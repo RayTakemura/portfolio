@@ -20,4 +20,22 @@ code {
     monospace;
 }
 
+main {
+  color: white;
+  font-size: large;
+}
+
+.pfp {
+  max-width: 275px;
+  min-width: 200px;
+}
+
+.xy-align {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  /* display: flex;
+  align-items: center; */
+}
 
