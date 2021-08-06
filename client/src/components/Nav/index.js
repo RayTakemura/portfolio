@@ -32,7 +32,7 @@ const Nav = () => {
                                     <Link to='/' className="nav-el">About me</Link>
                                 </li>
                                 <li className="py-3" id="nav-el">
-                                    Work
+                                    <Link to='/work' className="nav-el">Work</Link>
                                 </li>
                                 <li className="py-3" id="nav-el">
                                     Resume
