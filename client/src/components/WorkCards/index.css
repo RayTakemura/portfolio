@@ -17,7 +17,7 @@
   min-width: 300px;
   margin-top: 10px;
   
-  line-height: 150px;
+  line-height: 200px;
   text-align: center;
 }
 
@@ -38,12 +38,12 @@
     transition: .5s ease;
 }
 
-.container {
+.work-container {
     position: relative;
     width: 100%;
 }
   
-.container:hover .overlay {
+.work-container:hover .overlay {
     bottom: 0;
     height: 100%;
 }
@@ -53,12 +53,36 @@
     height: 100%;
     text-align: center;
 }
+
 .link {
     color: black;
 }
 
 .link:hover {
     color: gray;
+}
+
+@media screen and (max-width: 1300px){
+    .work {
+        max-width: 35%;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .work {
+        max-width: 40%;
+        /* margin:0px; */
+    }
+    .proj-img{
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .work {
+        max-width: 100%;
+        /* margin:0px; */
+    }
 }
 
 @media screen and (max-width: 490px){

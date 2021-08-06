@@ -43,19 +43,16 @@ const WorkCards = () => {
                 works.map((work, i) => {
                     return (
                         <div key={i} className="work ">
-                            
                             <h3>{work.title}</h3>
-                            <div className="container">
+                            <div className="work-container">
                                 <img className="proj-img" src={require(`../../assets/images/projects/${work.title}.png`).default} alt={work.title}/>
                                 <div className="overlay">
                                     <div className="text">
                                         <a className="link" href={work.deployedLink}>Deployed Link</a>
                                         <a className="link" href={work.github}><img style={{width:"28px"}} className="github" src={github} alt="github"/></a>
                                     </div>
-                                
                                 </div>
                             </div>
-                            
                         </div>
                     )
                 })
