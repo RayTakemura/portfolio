@@ -35,7 +35,7 @@ const Nav = () => {
                                     <Link to='/work' className="nav-el">Work</Link>
                                 </li>
                                 <li className="py-3" id="nav-el">
-                                    Resume
+                                    <Link to='/resume' className="nav-el">Resume</Link>
                                 </li>
                             </ul>
 
@@ -46,8 +46,8 @@ const Nav = () => {
                                         dropdown ? 
                                         <div className="dropdown-content d-flex flex-column">
                                             <Link to="/">About me</Link>
-                                            <span>Work</span>
-                                            <span>Resume</span>
+                                            <Link to="/work">Work</Link>
+                                            <Link to='/resume' >Resume</Link>
                                         </div>
                                         :
                                         null

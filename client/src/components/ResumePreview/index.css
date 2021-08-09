@@ -1,0 +1,13 @@
+.pdf-link {
+    display:none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .pdf-container {
+        display: none ;
+    }
+    .pdf-link {
+        display:block;
+    }
+}
