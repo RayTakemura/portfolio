@@ -45,7 +45,7 @@ const Nav = () => {
                                     {
                                         dropdown ? 
                                         <div className="dropdown-content d-flex flex-column">
-                                            <Link to="/">About me</Link>
+                                            <Link to="/portfolio">About me</Link>
                                             <Link to="/work">Work</Link>
                                             <Link to='/resume' >Resume</Link>
                                         </div>
