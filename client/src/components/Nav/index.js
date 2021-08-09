@@ -29,7 +29,7 @@ const Nav = () => {
                             
                             <ul className="p-3 nav-elements d-flex flex-row justify-content-around">
                                 <li className="py-3" id="nav-el">
-                                    <Link to='/' className="nav-el">About me</Link>
+                                    <Link to='/portfolio' className="nav-el">About me</Link>
                                 </li>
                                 <li className="py-3" id="nav-el">
                                     <Link to='/work' className="nav-el">Work</Link>
