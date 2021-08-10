@@ -7,7 +7,7 @@ const WorkCards = () => {
         {
             title: "ShopShop",
             github: "https://github.com/RayTakemura/shop-shop",
-            deployedLink: "https://awesome-stream-search.herokuapp.com/", // TODO: change after deploying!
+            deployedLink: "https://shop-shop-rst.herokuapp.com/",
             description: "E-commerce website. This app allows users to add items into their shopping cart. To checkout, the user must either sign-up or log into their account."
         },
         {
