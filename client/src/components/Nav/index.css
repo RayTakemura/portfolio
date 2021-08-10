@@ -1,0 +1,30 @@
+header {
+    background-color: var(--blue);
+    box-shadow: 2px 8px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+a.title {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.nav-elements {
+    list-style-type: none;
+}
+
+a.nav-el {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.dropdown { display: none !important;}
+
+@media screen and (max-width: 992px) {
+    
+    .nav-elements     { display: none !important; }
+    .dropdown { display: inline-block !important; }
+}
+
+@media screen and (min-width: 567px) {
+    header { padding-top: 1%}
+}
