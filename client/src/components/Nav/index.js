@@ -18,7 +18,7 @@ const Nav = () => {
                 <Row>
                     <Col xs={8} >
                         <h1 className="py-3">
-                            <Link className="title" to="/">
+                            <Link className="title" to="/portfolio">
                                 Ray Takemura    
                             </Link>
                         </h1>
