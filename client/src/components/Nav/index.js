@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './index.css';
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 
 const Nav = () => {
     const [dropdown, setDropdown] = useState(false); 
@@ -13,7 +14,11 @@ const Nav = () => {
 
     return (
 
-        <header >
+        <motion.header 
+            initial={{ y: -250 }}
+            animate={{ y: -10 }}
+            transition={{ delay: 0.2, type: 'spring', stiffness: 50 }}
+        >
             <Container>
                 <Row>
                     <Col xs={8} >
@@ -62,7 +67,7 @@ const Nav = () => {
                 {console.log(dropdown)}
             </Container>
             
-        </header>
+        </motion.header>
     )
 }
 
