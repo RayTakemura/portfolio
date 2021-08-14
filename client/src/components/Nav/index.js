@@ -16,8 +16,8 @@ const Nav = () => {
 
         <motion.header 
             initial={{ y: -250 }}
-            animate={{ y: -10 }}
-            transition={{ delay: 0.2, type: 'spring', stiffness: 50 }}
+            animate={{ y: 0 }}
+            transition={{ delay: 0.2, type: 'spring', stiffness: 30 }}
         >
             <Container>
                 <Row>
