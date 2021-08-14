@@ -10,7 +10,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 // Worker
 import { Worker } from '@react-pdf-viewer/core'; // install this library
-import pdfFile from '../../assets/pdf/Resume 072621.pdf'
+import pdfFile from '../../assets/pdf/Ray Takemura 081021.pdf'
 
 function ResumePreview() {
 

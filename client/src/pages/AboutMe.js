@@ -1,9 +1,15 @@
 import {Container, Row, Col} from 'react-bootstrap';
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
 
     return (
-        <main>
+        <motion.main
+            initial={{ x: 1500 }}
+            animate={{ x: 0 }}
+            transition={{ delay: 1 , type: 'spring', stiffness: 50 }}
+            exit={{ x: '-100vw', transition: { ease: 'easeInOut'}}}
+        >
             <Container >
                 <Row className="xy-align p-5 m-3 abt-me">
                     <Col lg={4}>
@@ -26,7 +32,7 @@ const AboutMe = () => {
                     </Col>
                 </Row>
             </Container>
-        </main>
+        </motion.main>
     )
 }
 
