@@ -8,7 +8,7 @@ const Footer = () => {
         <motion.footer className=" d-flex justify-content-between"
             initial={{y: 250 }}
             animate={{ y: 0 }}
-            transition={{ delay: 0.5, type: 'spring', stiffness: 30 }}
+            transition={{ delay: 0.2, type: 'spring', stiffness: 30 }}
         >
             <div>
                 <a href="https://www.linkedin.com/in/ray-takemura-57156b18b/">
