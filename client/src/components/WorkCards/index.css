@@ -12,12 +12,13 @@
 
 .work {
   padding: 1rem;
+  
   margin: 3rem;
   max-width: 25%;
   min-width: 300px;
   margin-top: 10px;
   
-  line-height: 200px;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -49,9 +50,11 @@
 }
 
 .text{
-    font-size: 20px;
+    padding-top: 2rem;
+    font-size: 15px;
     height: 100%;
     text-align: center;
+    color: black;
 }
 
 .link {
@@ -60,6 +63,10 @@
 
 .link:hover {
     color: gray;
+}
+
+.filler {
+    display: none;
 }
 
 @media screen and (max-width: 1300px){
@@ -83,13 +90,21 @@
         max-width: 100%;
         /* margin:0px; */
     }
+    .text{
+        padding-top: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 490px){
 
+    .filler{
+        display: block;
+    }
+    .text{
+        font-size: 10px;
+        padding-top: 0;
+    }
     .card-container {
-
-        
         padding: 0px;
         margin: 0px;
         
@@ -103,6 +118,8 @@
         min-width: 0px;
         margin: 5px;
         padding: 0px;
+        margin-bottom: 2rem;
+        line-height: 1rem;
     }
 
     .proj-img {
