@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://github.com/RayTakemura">
                     <img style={{width:"28px"}} className="github" src={github} alt="github"/>
                 </a>
-                <a class="email" href={"mailto:raytakemura@gmail.com"}>raytakemura@gmail.com</a>
+                <a className="email" href={"mailto:raytakemura@gmail.com"}>raytakemura@gmail.com</a>
             </div>
             
             <div className="px-2">
