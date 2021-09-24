@@ -10,7 +10,7 @@ const Work = () => {
         animate={{ x: 0 }}
         transition={{ delay: 1 , type: 'spring', stiffness: 50 }}
         exit={{ x: '-100vw', transition: { ease: 'easeInOut'}}}
-    >
+        >
             <div className="card-container">
                 <WorkCards/>
             </div>

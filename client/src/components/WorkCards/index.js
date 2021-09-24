@@ -1,5 +1,4 @@
 import './index.css'
-import github from '../../assets/icons/github.svg';
 
 
 const WorkCards = () => {
@@ -8,7 +7,7 @@ const WorkCards = () => {
             title: "ShopShop",
             github: "https://github.com/RayTakemura/shop-shop",
             deployedLink: "https://shop-shop-rst.herokuapp.com/",
-            description: "E-commerce website. This app allows users to add items into their shopping cart. To checkout, the user must either sign-up or log into their account."
+            description: "MERN stack E-commerce website."
         },
         {
             title: "StreamSearch",
@@ -47,17 +46,24 @@ const WorkCards = () => {
                             <div className="work-container">
                                 <img className="proj-img" src={require(`../../assets/images/projects/${work.title}.png`).default} alt={work.title}/>
                                 <div className="overlay">
-                                    <div className="text">
-                                        <a className="link" href={work.deployedLink}>Deployed Link</a>
-                                        <a className="link" href={work.github}><img style={{width:"28px"}} className="github" src={github} alt="github"/></a>
+                                    <div className="text ">
+                                        <div className="d-flex justify-content-around flex-wrap">
+                                            <a className="link" href={work.deployedLink}>Deployed Link</a>
+                                            <a className="link" href={work.github}>GitHub Link</a>
+                                            
+                                        </div>
+                                        <p className="mt-auto p-2">Description: {work.description}</p>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     )
                 })
             }
-            
+            <div className="filler">
+                .
+            </div>
         </>
     )
 }
