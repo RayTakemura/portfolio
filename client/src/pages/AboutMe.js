@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <Row className="xy-align p-5 m-3 abt-me">
                     <Col lg={4}>
                         <img 
-                            src="https://media-exp1.licdn.com/dms/image/C5603AQHP8dHaBIobfg/profile-displayphoto-shrink_800_800/0/1624494725959?e=1633564800&v=beta&t=aZJ3oE0mYy_rlIaLijWgFncqgWR23GrQq2ylZN7tYtM"
+                            src={require(`../assets/images/profilePic/pfp.jpg`).default}
                             alt="ray"
                             className="pfp"
                         />
