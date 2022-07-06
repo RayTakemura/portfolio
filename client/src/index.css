@@ -41,6 +41,10 @@ main {
   align-items: center; */
 }
 
+.prof-doc{
+  text-align: left;
+}
+
 @media screen and (max-width: 992px){
   .pfp{
     padding-bottom: 3rem;
